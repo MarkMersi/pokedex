@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+</head>
+<style>
+    @font-face {
+        font-family: Pokemon;
+        src: url(./pkmn.ttf);
+    }
+    body{
+        background-image: url('./img/home.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Pokemon;
+    }
+    .titulo{
+        background-color: rgba(0, 0, 0, 0.667);
+        margin-left: auto;
+        margin-right: auto;
+        width: 19em;
+        text-align: center;
+        color: rgb(219, 219, 219)
+    }
+    .pokedex{
+        background-color: rgba(0, 0, 0, 0.667);
+        width: 30.4em;
+        height: 24em;
+        color: rgb(219, 219, 219);
+        padding-left: 10px;
+    }
+
+    .content{
+        padding-left: 40px;
+    }
+</style>
+<body>
+    <div class="titulo">
+        <h1>Pokédex</h1>
+    </div>
+    <img class="p" src="./img/pokedex.png" width="312">
+    <div class="pokedex">
+        <h1>Pokémones Iniciales</h1>
+        <div class="content">
+            <p></p>
+            <p> Pkmn. 001 - Bulbasaur</p>
+                <p style="padding-left: 42px;"> Pkmn. 002 - Ivysaur</p>
+                <p style="padding-left: 42px;"> Pkmn. 003 - Venusaur</p>
+            <p> Pkmn. 004 - Charmander</p>
+                <p style="padding-left: 42px;"> Pkmn. 005 - Charmeleon</p>
+                <p style="padding-left: 42px;"> Pkmn. 006 - Charizard</p>
+            <p> Pkmn. 007 - Squirtle</p>
+                <p style="padding-left: 42px;"> Pkmn. 008 - Wartortle</p>
+                <p style="padding-left: 42px;"> Pkmn. 009 - Blastoise</p>
+            <p></p>
+        </div>
+    </div>
+    </body>
+</html>
