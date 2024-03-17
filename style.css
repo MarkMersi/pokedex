@@ -1,6 +1,7 @@
 @font-face {
     font-family: Pokemon;
     src: url(pkmn.ttf);
+    font-size: 32px;
 }
 
 .titulo {
@@ -14,8 +15,8 @@
     padding-top: 5px;
 }
 
-/* Esto sirve para centrar los tipos ya que utilizando "display:inline" no permite centrarlos.*/
-.div-tipos, .div-debilidades, .div-descripción {
+/* Esto sirve para centrar los divs ya que utilizando "display:inline" no permite centrarlos.*/
+.div-tipos, .div-debilidades, .div-descripción, .div-evoluciones, .div-megaevolución{
     text-align: center;
     padding-top: 5px;
     padding-bottom: 12px; 
@@ -62,6 +63,49 @@ div.wrapper {
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 4px;
+}
+
+.piedra-evolutiva {
+    height: 24px;
+    width: 24px;
+}
+
+.div-evoluciones {
+    display: inline-flex;
+    size: 40px;
+}
+
+.evo-arrow {
+    padding-top: 56px;
+}
+
+.arrow {
+    width: 64px;
+    height: 64px;
+}
+
+.evo{
+    padding-left: 2px;
+    width: max-content;
+}
+
+.min-tipos {
+    display: inline-block;
+    padding-inline: 18px;
+    padding-block: 2px;
+    margin-inline: 6px;
+    font-size: 12px;
+}
+
+.mega {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.evoluciones {
+    width: 128px;
+    height: 128px;
 }
 
 #Fuego {
