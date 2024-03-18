@@ -4,10 +4,19 @@
     font-size: 32px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 700px){
     .div-evoluciones {
         flex-direction: column;
-        flex: 100%;
+    }
+
+    .div-megaevoluciónes {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .x {
+        margin: auto;
+        padding-right: 0px;
     }
 }
 
@@ -92,8 +101,8 @@ div.wrapper {
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
     border-radius: 4px;
 }
 
@@ -105,7 +114,6 @@ div.wrapper {
 .div-evoluciones {
     display: flex;
     margin: auto;
-    max-width: max-content;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -147,13 +155,8 @@ div.wrapper {
     text-align: center;
 }
 
-.y {
-    padding-left: 64px;
-}
-
 .x {
     margin-left: auto;
-    padding-right: 64px;
 }
 
 .evoluciones {
