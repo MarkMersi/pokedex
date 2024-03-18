@@ -114,6 +114,7 @@ div.wrapper {
 .div-evoluciones {
     display: flex;
     margin: auto;
+    width: max-content;
     flex-direction: row;
     flex-wrap: wrap;
 }
