@@ -4,11 +4,15 @@
     font-size: 32px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 950px){
     .div-evoluciones {
+        display: flexbox;
         flex-direction: column;
+        flex: 100%;
     }
+}
 
+@media (max-width: 700px){
     .div-megaevoluciónes {
         flex-direction: column;
         margin-top: 20px;
@@ -115,8 +119,6 @@ div.wrapper {
     display: flex;
     margin: auto;
     width: max-content;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .evo-arrow {
